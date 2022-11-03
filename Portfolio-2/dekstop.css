@@ -1,0 +1,140 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* navbar design start */
+.logo{
+    text-align: left;
+    margin-top: -12px;
+}
+
+.nav-heading{
+    text-align: right;
+}
+
+.nav-link{
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+      
+}
+
+.nav-link a{
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+
+.navbar a{
+    background-color: transparent;
+}
+
+.navbar{
+    padding-top: 20px;
+}
+
+/* navbar design end */
+
+/* profile design start */
+
+.top-logo{
+   
+   
+    right:100px;
+    transition: width 2s , transform 2s;
+}
+
+.bottom-logo{
+    left:50px;
+    transition: width 2s , transform 2s;
+}
+
+.top-logo:hover{
+   
+   
+    width:170px;
+}
+
+.bottom-logo:hover{
+    width:130px;
+}
+
+.profile p {
+    width:50%;
+}
+
+
+/* profile design ends */
+
+/* about-me start */
+
+.about-me-img img{
+   margin-top:100px ;
+   height:270px;
+   width: 250px;
+}
+
+.about-me-desc p{
+    text-align: left;
+}
+
+/* about-me ends */
+
+/* professioanl experience start */
+
+.professional-ex{
+    padding: 1% 5%;
+}
+
+
+/* professioanl experience ends */
+
+
+/* achivement contact start here  */
+
+.achivment-cont{
+    padding-right: 50px;
+    
+}
+
+.contact button{
+
+    width: 150px;
+ 
+
+}
+
+.contact-link{
+    position: relative;
+}
+
+.media-icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 170px;
+}
+
+/* achivement contact ends here  */
+
+/* footer start here */
+.foot-menu {
+    margin-top: 12px;
+}
+
+.foot-menu a{
+    display: inline;
+    margin: 10px;
+}
+/* footer ends here */
